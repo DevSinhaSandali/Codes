@@ -1,0 +1,25 @@
+import java.util.Scanner;
+class Greatest
+{
+public static void main(String[]s)
+{
+int largest;
+Scanner inp = new Scanner(System.in);
+System.out.println("Enter 1st number: ");
+int n1 = inp.nextInt();
+System.out.print("Enter 2nd number: ");
+int n2 = inp.nextInt();
+System.out.print("Enter 3rd number: ");
+int n3 = inp.nextInt();
+
+if(n1>n2 && n1>n3)
+largest = n1;
+else if (n2>n1 && n2>n3)
+largest = n2;
+else
+largest = n3;
+
+System.out.print("Greatest number = " +largest);
+
+}
+}
