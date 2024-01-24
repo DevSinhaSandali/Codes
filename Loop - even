@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class FLeven
+{
+public static void main(String...s)
+{
+Scanner scr = new Scanner(System.in);
+System.out.print("Enter limit: ");
+int x = scr.nextInt();
+for(int i=1; i<=x ;i++)
+{
+if(i%2==0)
+{
+System.out.print(i+ " ");
+}
+}
+}
+}
