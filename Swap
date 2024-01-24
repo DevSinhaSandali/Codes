@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class Swap
+{
+public static void main (String[]s)
+{
+Scanner scr = new Scanner(System.in);
+System.out.println("a= ");
+int a = scr.nextInt();
+System.out.println("b= ");
+int b = scr.nextInt();
+System.out.println("Values of 'a' and 'b' before swapping is "+a+" "+b+" respectively");
+
+int temp =  a;
+a = b;
+b = temp;
+
+System.out.println("New value of a " +a);
+System.out.println("New value of b " +b);
+System.out.println("Values of variable after the swap is "+a+" and "+b+ " respectively");
+System.out.println("Values of variable after the swap is "+a+" and "+b+" respectively");
+}
+}
