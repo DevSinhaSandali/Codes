@@ -4,7 +4,7 @@ class Welcome
 public static void main (String[]s)
 {
 Scanner sc = new Scanner(System.in);
-System.out.println("Enter name: ");
+System.out.println("Enter name: "); 
 String a = sc.nextLine();
 System.out.println("Welcome " +a);
 }
