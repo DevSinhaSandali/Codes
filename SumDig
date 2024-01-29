@@ -4,7 +4,7 @@ class SumDig
 public static void main(String...s)  
 {  
 int sum = 0;  
-Scanner sc = new Scanner(System.in);  
+Scanner sc = new Scanner(System.in);   
 System.out.print("Enter the number: ");  
 int number = sc.nextInt();  
 while(number > 0)  
