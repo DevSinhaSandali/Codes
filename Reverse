@@ -6,7 +6,7 @@ public static void main(String...s)
 System.out.print("Enter number = ");
 Scanner inp = new Scanner(System.in);
 int num = inp.nextInt();
-int n = 0;
+int n = 0; 
 
 while (num>0)
 {
