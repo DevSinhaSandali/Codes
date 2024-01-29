@@ -5,7 +5,7 @@ public static void main(String[]s)
 {
 int[] a = {1,2,3,4,5};
 System.out.println("Even numbers: ");
-for (int i : a)
+for (int i : a) 
 {
 if (i%2 == 0)
 {
