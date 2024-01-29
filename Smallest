@@ -4,7 +4,7 @@ class Smallest
 public static void main(String[]s)
 {
 int smallest;
-Scanner inp = new Scanner(System.in);
+Scanner inp = new Scanner(System.in); 
 System.out.println("Enter 1st number: ");
 int n1 = inp.nextInt();
 System.out.print("Enter 2nd number: ");
