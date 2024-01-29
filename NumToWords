@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class NumToWords
+{
+public static void main(String... args) 
+{
+String arr[] = {"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
+Scanner scr = new Scanner(System.in);
+
+System.out.println("Enter number: ");
+int n = scr.nextInt();
+String result = " ";
+
+while (n > 0) 
+{
+int temp = n % 10;
+result = arr[temp - 1] + result;
+n = n / 10;
+}
+
+System.out.println("Word representation: " + result);
+}
+}
