@@ -2,6 +2,6 @@ class Practice
 {
 public static void main (String[]s)
 {
-System.out.println ("Today will be my "+s[0] +" "+s[1]);
+System.out.println ("Today will be my "+s[0] +" "+s[1]); 
 }
 }
