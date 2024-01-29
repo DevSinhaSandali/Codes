@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class AssPattOne
+{
+public static void main(String...s)
+{
+System.out.print("Enter number of rows: ");
+Scanner r=new Scanner(System.in);
+int row = r.nextInt();
+
+for(int i=0; i<row; i++)
+{
+for(int j=0; j<=i;j++)
+{
+System.out.print("* ");                //Can't use SOPln because every asterisk will then come in the next line i.e. no pattern formed
+}
+System.out.println();                  //So that we may jump to the next line once required asterisks are filled
+}
+}
+}
