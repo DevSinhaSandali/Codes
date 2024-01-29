@@ -4,7 +4,7 @@ class AssPattTwo
 {
 public static void main(String...s)
 {
-System.out.println("Enter number of rows = ");
+System.out.println("Enter number of rows = "); 
 Scanner r = new Scanner(System.in);
 int row = r.nextInt();
 
